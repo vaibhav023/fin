@@ -1,0 +1,48 @@
+/* carousel */
+.carouselContainer {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    width: 100%;
+    background-color: white;
+    border-radius: 20.5px;
+    transform: scale(0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .activeSlide {
+    transform: scale(1); /* Increase size of active slide */
+  }
+  
+  .dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: width 0.2s ease-in-out;
+    background-color: rgba(255,165,0,0.5);
+  }
+  
+  .activeDot {
+    width: 25px; /* Increase the width of the active dot */
+    border-radius: 8px;
+    background-color: orange;
+  }  

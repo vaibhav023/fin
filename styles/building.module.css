@@ -1,0 +1,32 @@
+.gridContainer {
+    margin-top: 2%;
+    background-color: rgba(0, 0, 0, 0.797);
+    border-radius: 16px; /* Add rounded edges to the container */
+    padding: 16px; /* Add padding to the container */
+    height:250px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    color: aliceblue;
+    
+  }
+  .submitButton {
+    background-color: #FF781F;
+    color: #fff;
+    padding:1%;
+    margin: 4%;
+    margin-bottom: 6%;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 16px; /* Add rounded edges */
+  }
+  @media (max-width: 999px) {
+    .gridContainer {
+      width:250%;
+      margin-left: 2%;
+      margin-top: 2%;
+      margin-right: 2%;
+    }
+  }
+  
+ 

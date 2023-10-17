@@ -1,0 +1,73 @@
+/* Default styles for larger screens */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #DFF3F6;
+    margin-left: 10%;
+    width: 80%;
+  }
+  
+  .wrapper {
+    justify-content: center;
+    align-items: center;
+    background-color: #DFF3F6;
+    margin: 2%;
+    margin-left: 10%;
+    width: 80%;
+  }
+  .middleSection{
+    margin-left: 14%;
+  }
+  .leftColumn,
+  .rightColumn,
+  .middleSection {
+    flex: 1;
+    padding: 2%;
+  
+  }
+  
+  /* Styling for images */
+  .img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Media query for screens with a width less than 768px */
+  @media (max-width: 768px) {
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      background-color: #DFF3F6;
+      margin-left: 10%;
+      width: 80%;
+    }
+    
+    .wrapper {
+      justify-content: center;
+      align-items: center;
+      background-color: #DFF3F6;
+      margin: 2%;
+      margin-left: 10%;
+      width: 80%;
+    }
+    .container,
+    .wrapper,
+    .leftColumn,
+    .rightColumn,
+    .middleSection {
+        /* Make each column appear as a flex item on small screens */
+        font-size: smaller;
+        /* width: 100%; Use 100% width on small screens */
+        /* padding: 10px; Reduce padding for smaller screens */
+        text-align: center; /* Center-align text on small screens */
+    }
+  
+    .img {
+        max-width: 80%; /* Adjust image size for smaller screens */
+    }
+  }
+  

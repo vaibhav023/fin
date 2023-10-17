@@ -1,0 +1,135 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./styles/contact.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+/* ContactForm.module.css */
+.contact_container__V_2rE {
+    text-align: center;
+    margin-top: 2%;
+    height:700px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 2%; /* Add rounded edges to the container */
+    padding: 2%;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact_heading__j1b_Q {
+    font-size: 10%;
+  }
+  
+  .contact_columns__ndNaD {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .contact_column__s3PGx {
+    flex: 1;
+    margin-left: 2%;
+
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Style input fields as lines */
+  .contact_column__s3PGx input[type="text"] {
+    border: none; /* Remove border */
+    border-bottom: 1px solid #ccc; /* Add a bottom border to create a line */
+    padding: 2%; /* Add some padding for spacing */
+    margin-bottom: 3%;
+    width: 80%; /* Full width within the column */
+  }
+  
+  /* .uploadBox {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    width:80%;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .uploadBox label {
+    display: block;
+    font-weight: bold;
+  } */
+  
+  /* .uploadBox input[type="file"] {
+    display: none;
+  } */
+  
+  .contact_submitButton__AteCG {
+    background-color: #FF781F;
+    color: #fff;
+    border-radius: 10%;
+    padding: 10px 20px;
+    margin: 4%;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  @media (max-width: 768px) {
+    .contact_container__V_2rE {
+      width:250%;
+      margin-left: 10%;
+      margin-top: 2%;
+      margin-right: 2%;
+    }
+  
+    .contact_columns__ndNaD {
+      align-items: flex-start; /* Adjust alignment for smaller screens */
+    }
+  }
+  
+  
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./styles/carousel.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+/* carousel */
+.carousel_carouselContainer__CtjTu {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel_carousel__ESydX {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel_slide__ZLeDm {
+    width: 100%;
+    background-color: white;
+    border-radius: 20.5px;
+    transform: scale(0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carousel_activeSlide__2vZJc {
+    transform: scale(1); /* Increase size of active slide */
+  }
+  
+  .carousel_dots__WeLPq {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .carousel_dot__hYu5u {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: width 0.2s ease-in-out;
+    background-color: rgba(255,165,0,0.5);
+  }
+  
+  .carousel_activeDot__69zqq {
+    width: 25px; /* Increase the width of the active dot */
+    border-radius: 8px;
+    background-color: orange;
+  }  

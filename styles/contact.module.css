@@ -1,0 +1,81 @@
+/* ContactForm.module.css */
+.container {
+    text-align: center;
+    margin-top: 2%;
+    height:700px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 2%; /* Add rounded edges to the container */
+    padding: 2%;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .heading {
+    font-size: 10%;
+  }
+  
+  .columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .column {
+    flex: 1;
+    margin-left: 2%;
+
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Style input fields as lines */
+  .column input[type="text"] {
+    border: none; /* Remove border */
+    border-bottom: 1px solid #ccc; /* Add a bottom border to create a line */
+    padding: 2%; /* Add some padding for spacing */
+    margin-bottom: 3%;
+    width: 80%; /* Full width within the column */
+  }
+  
+  /* .uploadBox {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    width:80%;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .uploadBox label {
+    display: block;
+    font-weight: bold;
+  } */
+  
+  /* .uploadBox input[type="file"] {
+    display: none;
+  } */
+  
+  .submitButton {
+    background-color: #FF781F;
+    color: #fff;
+    border-radius: 10%;
+    padding: 10px 20px;
+    margin: 4%;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  @media (max-width: 768px) {
+    .container {
+      width:250%;
+      margin-left: 10%;
+      margin-top: 2%;
+      margin-right: 2%;
+    }
+  
+    .columns {
+      align-items: flex-start; /* Adjust alignment for smaller screens */
+    }
+  }
+  
+  

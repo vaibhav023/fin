@@ -1,0 +1,120 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./styles/footer.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************/
+.footer_gridContainer__1_o5X{
+    background-color: black;
+    padding: 0%; /* Add padding to the container */
+    height:200px;
+    display: flex;
+    color: aliceblue;
+    grid-template-columns: 1% 1%; /* Two equal-width columns */
+  gap: 1%;
+  margin-top:3%;
+  margin-left:3%;
+  margin-right:3%;
+
+}
+.footer_leftGrid__CU2EG{
+    margin-left:5%;
+    margin-top:2%;
+    width:30%;
+    font-size: small;
+    line-height: 1.4;
+    /* background-color: aliceblue; */
+}
+.footer_rightGrid__a_Puo{
+  text-align: left;
+  margin-left: 15%;
+ 
+}
+.footer_term__NzD0G{
+    font-size: medium;
+    width:10%;
+}
+.footer_termGroup__x9Yxn {
+    gap: 100%; 
+    margin-bottom: 20px;
+  
+  }
+.footer_bottomGrid__3pKLy{
+   
+    color: aliceblue;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    gap: 20px;
+}
+.footer_grid__sru1K{
+    background-color: black;
+    margin-top: 2%;
+    padding: 16px; /* Add padding to the container */
+    height:280px;
+    color: aliceblue;
+}
+.footer_newGrid__cvJ0k{
+    /* margin-left:3%;
+    margin-right:3%;  */
+    padding:1%;
+    width:40%;
+    background-color: black;
+    color: aliceblue;
+}
+/* Add this CSS to your existing stylesheet or create a new one */
+/* .iconContainer {
+    display: flex;
+    margin-left: 1100px;
+    gap: 10px; /* Adjust the gap between icons as needed */
+  
+   
+  /* Style for the icons */
+  .footer_icon__47iwU {
+    font-size: 24px; /* Adjust the icon size as needed */
+    color: white; /* Icon color */
+  }
+  @media (max-width: 999px) {
+    .footer_gridContainer__1_o5X,.footer_newGrid__cvJ0k {
+      font-size: smaller;
+      width:250%;
+      margin-left: 2%;
+      
+      margin-right: 2%;
+    }
+    .footer_newGrid__cvJ0k{
+      display:None
+    }
+  }
+  
+  
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./styles/building.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+.building_gridContainer__L19ze {
+    margin-top: 2%;
+    background-color: rgba(0, 0, 0, 0.797);
+    border-radius: 16px; /* Add rounded edges to the container */
+    padding: 16px; /* Add padding to the container */
+    height:250px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    color: aliceblue;
+    
+  }
+  .building_submitButton__XHN52 {
+    background-color: #FF781F;
+    color: #fff;
+    padding:1%;
+    margin: 4%;
+    margin-bottom: 6%;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 16px; /* Add rounded edges */
+  }
+  @media (max-width: 999px) {
+    .building_gridContainer__L19ze {
+      width:250%;
+      margin-left: 2%;
+      margin-top: 2%;
+      margin-right: 2%;
+    }
+  }
+  
+ 

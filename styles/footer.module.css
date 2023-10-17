@@ -1,0 +1,83 @@
+.gridContainer{
+    background-color: black;
+    margin-top: 2%;
+    padding: 0%; /* Add padding to the container */
+    height:200px;
+    display: flex;
+    color: aliceblue;
+    grid-template-columns: 1% 1%; /* Two equal-width columns */
+  gap: 1%;
+  margin-top:3%;
+  margin-left:3%;
+  margin-right:3%;
+
+}
+.leftGrid{
+    margin-left:5%;
+    margin-top:2%;
+    width:30%;
+    font-size: small;
+    line-height: 1.4;
+    /* background-color: aliceblue; */
+}
+.rightGrid{
+  text-align: left;
+  margin-left: 15%;
+ 
+}
+.term{
+    font-size: medium;
+    width:10%;
+}
+.termGroup {
+    gap: 100%; 
+    margin-bottom: 20px;
+  
+  }
+.bottomGrid{
+   
+    color: aliceblue;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    gap: 20px;
+}
+.grid{
+    background-color: black;
+    margin-top: 2%;
+    padding: 16px; /* Add padding to the container */
+    height:280px;
+    color: aliceblue;
+}
+.newGrid{
+    /* margin-left:3%;
+    margin-right:3%;  */
+    padding:1%;
+    width:40%;
+    background-color: black;
+    color: aliceblue;
+}
+/* Add this CSS to your existing stylesheet or create a new one */
+/* .iconContainer {
+    display: flex;
+    margin-left: 1100px;
+    gap: 10px; /* Adjust the gap between icons as needed */
+  
+   
+  /* Style for the icons */
+  .icon {
+    font-size: 24px; /* Adjust the icon size as needed */
+    color: white; /* Icon color */
+  }
+  @media (max-width: 999px) {
+    .gridContainer,.newGrid {
+      font-size: smaller;
+      width:250%;
+      margin-left: 2%;
+      
+      margin-right: 2%;
+    }
+    .newGrid{
+      display:None
+    }
+  }
+  
+  
